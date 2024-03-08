@@ -1,0 +1,113 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0);
+    color: #f1f1f1;
+}
+
+li {
+    float: right;
+    font-family: Poppins, sans-serif;
+    margin-left: 0;
+    
+}
+
+li a {
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    margin-left: 0;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    
+    background-color: #CD921E;
+    /* border-bottom-style: solid; */
+    color: #fff;
+    /* border-bottom-color: #CD921E;
+    border-bottom-width: 5px; */
+}
+
+li a:active {
+    background-color: #CD921E;
+    color: #fff;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    margin: 0;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+.content #img1{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    bottom: 0;
+    float: right;
+    position: relative;
+}
+
+.content #img2{
+    height: 50px;
+    width: 400px;
+    margin: 0;
+    bottom: 0;
+    float: left;
+    position: relative;
+}
